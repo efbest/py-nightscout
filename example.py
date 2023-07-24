@@ -1,4 +1,4 @@
-import asyncio
+timport asyncio
 import datetime
 
 from aiohttp import ClientError, ClientConnectorError, ClientResponseError
@@ -7,8 +7,8 @@ import py_nightscout as nightscout
 
 import pytz
 
-NIGHTSCOUT_URL = 'https://your_nightscout_site.herokuapp.com'
-API_SECRET = ''
+NIGHTSCOUT_URL = 'https://bestcgm.herokuapp.com'
+API_SECRET = '19Mcrsftzr52'
 
 async def main():
     """Example of library usage."""
